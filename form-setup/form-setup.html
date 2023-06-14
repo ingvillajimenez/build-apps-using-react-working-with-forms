@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+	<script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+	
+    <style>
+        .contents {
+            color: #e67300;
+            margin: 12px;
+            padding: 12px;
+            border: 1px solid greenyellow;
+            width: 200px;
+            background-color: #e6ffe6;
+        }
+        .input {
+            margin-top: 2px;
+            padding: 2px;
+            display: block;
+            width: 180px;
+            font-size: 14px;
+        }
+        .button {
+            margin-top: 12px;
+            display: block;
+            border: solid 1px orangered;
+            color: black;
+            width: 100px;
+            cursor: pointer;
+            line-height: 26px;
+            font-size: 14px;
+            background-color: #cccc00;
+        }
+        .button:hover {
+            background-color: #808000;
+        }
+        .label {
+            padding-top: 12px;
+            padding-bottom: 2px;
+        }
+	</style>
+</head>
+<body>
+	<div class="container" id="react-form-setup">
+	</div>
+	<script type="text/babel" src="form-setup.js">		
+	</script>
+</body>
+</html>
+
